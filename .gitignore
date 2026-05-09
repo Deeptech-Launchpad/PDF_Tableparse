@@ -21,6 +21,12 @@ backend/output/store.json
 node_modules/
 dist/
 
+# Sensitive
+.ssh/
+*ssh*
+id_rsa*
+*.pem
+
 # OS
 .DS_Store
 Thumbs.db
